@@ -1,0 +1,50 @@
+body{
+margin: 0;
+font-size: 35px;
+background-color: SkyBlue;
+}
+h1{
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    background-color:SteelBlue ;
+} 
+
+.comment{
+background-color: Silver;
+margin: 20px;
+width: 33.3%;
+height: 700px;
+padding: 20px 15px;
+border-radius: 20px;
+}
+.block{
+    margin: 5px;
+background-color: Gainsboro;
+border-radius: 20px;
+
+    
+} 
+
+.fon--df{
+    display: flex;
+
+}
+ul{
+    list-style: none;
+    
+}
+
+.icon{
+    margin: 10px 0 0 -40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nc:nth-child(2n){
+    margin-left: 20px;
+}
+
+
+
+

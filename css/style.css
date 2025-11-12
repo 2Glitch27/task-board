@@ -1,50 +1,46 @@
+
+
+
 body{
-margin: 0;
-font-size: 35px;
-background-color: SkyBlue;
+    font-size: 24px;
+    margin: 0;
+    background-color: SkyBlue;
+
 }
 h1{
-    margin: 0px;
-    padding: 20px;
+    background-color: SteelBlue;
     color: white;
-    background-color:SteelBlue ;
-} 
-
-.comment{
-background-color: Silver;
-margin: 20px;
-width: 33.3%;
-height: 700px;
-padding: 20px 15px;
-border-radius: 20px;
+    margin: 0;
+    padding: 20px;
+}
+.box{
+    display: flex;
 }
 .block{
-    margin: 5px;
-background-color: Gainsboro;
-border-radius: 20px;
-
-    
-} 
-
-.fon--df{
-    display: flex;
-
+    background-color: Silver;
+    margin: 20px 10px;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.bc{
+    background-color: white;
+    max-width: 90%;
+    margin: 10px 0 20px 20px;
+    border-radius: 10px;
+    padding: 10px;
 }
 ul{
     list-style: none;
-    
+    margin-left: -20px;;
 }
-
 .icon{
-    margin: 10px 0 0 -40px;
     display: flex;
     justify-content: space-between;
+    
 
 }
-.nc:nth-child(2n){
-    margin-left: 20px;
+.icon.icon--nc:nth-child(2n){
+    margin: 0 5px 0 20px;
 }
-
-
 
 
